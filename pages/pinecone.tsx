@@ -104,7 +104,7 @@ export default function PineconeEmbeddingPage() {
                 </>
               ) : (
                 <div className=" w-full ">
-                  <p className="mb-6 -mt-4  text-center text-mauve-12 md:text-lg">
+                  <p className="-mt-4 mb-6  text-center text-mauve-12 md:text-lg">
                     This chat leverages the embedded knowledge provided by you
                   </p>
 
