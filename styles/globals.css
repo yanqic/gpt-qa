@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.codeStyle {
+  font-size: 10px;
+}
+
+.fancy-bg2 {
+  background-image: radial-gradient(
+      circle 800px at 700px 200px,
+      var(--plum3),
+      transparent
+    ),
+    radial-gradient(
+      circle 600px at calc(100% - 300px) 300px,
+      var(--mint4),
+      transparent
+    ),
+    radial-gradient(circle 800px at right center, var(--sky3), transparent),
+    radial-gradient(circle 800px at right bottom, var(--sky1), transparent),
+    radial-gradient(
+      circle 800px at calc(50% - 600px) calc(100% - 100px),
+      var(--orange4),
+      var(--pink2),
+      transparent
+    );
+}
